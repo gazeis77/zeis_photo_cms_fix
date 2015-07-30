@@ -1,0 +1,291 @@
+/*********************
+Layout
+**********************/
+body {
+	padding-top: 50px;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.container-fluid {
+	max-width: 1000px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a {
+	color: #fff;
+}
+
+
+  a:hover {
+  	color: gray;
+  }
+
+ h2, h3, p, ul, li {
+  	color: #C0C0C0;
+  } 
+
+
+
+
+/*********************
+IMAGE
+**********************/
+
+.width-adjust {
+	width: 480px;
+}
+
+
+img {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.img-responsive{
+	display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+  
+   	max-height: 510px;
+    max-width: 764px;
+}
+
+
+/*********************
+Navbar
+**********************/
+
+ .navbar {
+ 	font-weight: bold;
+ 	margin-right: 0;
+ }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+.navbar-brand {
+	width: 140px;
+	padding: 0;
+	margin: 0;
+
+}
+
+.navbar {
+	background-color: #F8F8FF;
+}
+
+div .navbar .navbar-default .navbar-fixed-top a {
+	margin-top: 20px;
+}
+
+
+/*********************
+COLOR
+**********************/
+
+  body {
+    background-color: #3C6E7F;
+  }
+
+  .text-warning {
+  	color: black;
+  }
+
+
+
+
+
+
+/*********************
+Logo and Icons
+**********************/
+#logo {
+	width: 50%;
+}
+
+
+
+
+
+/*********************
+Carousel
+**********************/
+
+.carousel-indicators {
+	bottom: 0;
+}
+
+.carousel-indicators .active {
+	background-color: #222;
+}
+
+.carousel-indicators li {
+	border-color: #222;
+}
+
+.carousel-caption {
+  bottom: 30px;
+  text-shadow: 2px 2px #000;
+}
+
+.car-text {
+	color: white;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+
+}
+
+#myCarousel {
+	background-color: #F8F8FF;
+}
+
+/*********************
+Art Gallery
+**********************/
+
+.fotorama {
+	margin: 20px 0;
+	background-color: black;
+
+}
+
+.imgname {
+	width: 100%;
+}
+
+.imgname2 {
+	width: 100%;
+}
+/*
+#lightbox {
+	position:fixed;
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background:rgba(0, 0, 0, .5); 
+    text-align:center;
+}
+*/
+/*********************
+Booth
+**********************/
+
+h3 {
+	margin-bottom: 20px; 
+}
+
+
+/*********************
+packages
+**********************/
+
+.package {
+	display: inline-block;
+}
+
+.package ul {
+	list-style-type: none;
+}
+
+.standardPackage {
+	text-align: center;
+}
+
+.standardPackage ul, li {
+	list-style-type: none;
+}
+
+label span, .red {
+	color: #8B0000;
+}
+
+#errors {
+	color: #8B0000;
+}
+
+.errors {
+	color: black;
+}
+
+/*********************
+Services
+**********************/
+
+.servicesh2 {
+	text-align: center;
+}
+
+.imgcenter {
+	display: center;
+}
+
+.resize {
+	width: 100%;
+}
+
+
+/*********************
+Success 
+**********************/
+
+.thankyou {
+	color: #F0FFFF;
+	text-shadow: 2px 2px #000;
+}
+
+.navbar-custom {
+	background-color: #F0FFFF;
+}
+
+
+/*********************
+Footer
+**********************/
+.footer {
+	text-align: center;
+}
+
+.footer p {
+	margin-top: 10px;
+}
+
+.fa {
+	color:#C0C0C0;
+}
+
+a:hover .fa  {
+	color: black;
+}
+
+/*********************
+Jumbotron
+**********************/
+
+  .jumbotron {
+  	text-align: center;
+  	margin: 50px 0;
+  	color: black;
+  }
+
+  .jumbotron {
+  	color: black;
+  }
+
+  .lead {
+  	color: black;
+  }
+
+.carousel-caption .lead{
+	color: white;
+}
