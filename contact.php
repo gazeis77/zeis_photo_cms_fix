@@ -14,7 +14,7 @@
 <div class="container">
   <div class="row"> 
       <div class="col-md-6">
-          <form class="form-horizontal" id="myform" onsubmit="return validate_form();" action="sucess.html">   
+          <form class="form-horizontal" id="myform" onsubmit="return validate_form();" action="sucess.php">   
           <div id="errors" class="errors"></div>   
                <legend>Contact Us</legend>
                     <div class="form-group">

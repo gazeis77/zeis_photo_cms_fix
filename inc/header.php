@@ -7,7 +7,8 @@
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="js/bootstrap.min.js"></script>
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    
   </head>
   <body>
 

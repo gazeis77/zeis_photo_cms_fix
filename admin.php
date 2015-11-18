@@ -39,7 +39,7 @@ switch ($action) {
 
 function login() {
 	$results = array();
-	$results ['pageTitle'] = "Adming login | Widget News";
+	$results ['pageTitle'] = "Admin login";
 
 	if(isset($_POST['login'])) {
 		//user has posted the login foarm: attmep to log the user in 
