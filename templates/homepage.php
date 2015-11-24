@@ -1,20 +1,24 @@
 <?php include "inc/header.php" ?>
- 
-      <ul id="headlines">
+ 	<div class="container">
+      <ul>
  
 <?php foreach ( $results['articles'] as $article ) { ?>
- 
+ 	
         <li>
           <h2>
-            <span class="pubDate"><?php echo date('j F', $article->publicationDate)?></span><a href=".?action=viewArticle&amp;articleId=<?php echo $article->id?>"><?php echo htmlspecialchars( $article->title )?></a>
+          	<a href="?action=viewArticle&amp;articleId=<?php echo $article->id?>">
+          	<?php echo htmlspecialchars( $article->title )?></a>
+          	<br>
+            <span class="pubDate"><?php echo date('F j', $article->publicationDate)?></span>
           </h2>
-          <p class="summary"><?php echo htmlspecialchars( $article->summary )?></p>
+          <p class="lead"><?php echo htmlspecialchars( $article->summary )?></p>
         </li>
+
  
 <?php } ?>
  
       </ul>
- 
-      <p><a href="./?action=archive">Article Archive</a></p>
+ 	 </div>
+    
  
 <?php include "inc/footer.php" ?>

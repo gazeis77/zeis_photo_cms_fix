@@ -13,8 +13,9 @@ switch ($action) {
 	default:
 		homepage();
 }
-
-
+?>
+<div class="container">
+<?php
 function archive() {
 	$results = array();
 	$data = Article::getList();
@@ -33,7 +34,7 @@ function viewArticle(){
 
 	$results = array();
   	$results['article'] = Article::getById( (int)$_GET["articleId"] );
-  	$results['pageTitle'] = $results['article']->title . " | Widget News";
+  	$results['pageTitle'] = $results['article']->title;
  	 require( TEMPLATE_PATH . "/viewArticle.php" );	
 }
 
@@ -45,7 +46,5 @@ function homepage() {
   $results['pageTitle'] = "Widget News";
   require( TEMPLATE_PATH . "/homepage.php" );
 }
-
-
-
 ?>
+</div>

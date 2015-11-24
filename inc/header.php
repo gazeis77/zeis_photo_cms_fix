@@ -33,6 +33,7 @@
               <ul class="dropdown-menu">
                 <li><a href="booth.php">The Photobooth</a></li>
                 <li><a href="events.php">Photography</a></li>
+                <li><a href="blog.php">Events</a></li>
                 <li class="divider"></li>
                 <li><a href="contact.php">Contact</a></li>
               </ul>

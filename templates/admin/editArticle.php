@@ -1,5 +1,5 @@
 <?php include "inc/header.php" ?>
- 
+    <div class="container">
       <div id="adminHeader">
         <h2>Widget News Admin</h2>
         <p>You are logged in as <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a href="admin.php?action=logout"?>Log out</a></p>
@@ -49,5 +49,5 @@
 <?php if ( $results['article']->id ) { ?>
       <p><a href="admin.php?action=deleteArticle&amp;articleId=<?php echo $results['article']->id ?>" onclick="return confirm('Delete This Article?')">Delete This Article</a></p>
 <?php } ?>
- 
+ </div>
 <?php include "inc/footer.php" ?>

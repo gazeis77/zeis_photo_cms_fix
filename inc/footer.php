@@ -4,9 +4,9 @@
     <div class="panel panel-default">
       <div class="row panel-body">
         <div class="footer">
-          <a href="https://www.facebook.com/zeisphoto"><i class="fa fa-facebook-official fa-2x"></i></a>
-          <a href="https://www.instagram.com/zeisphoto"><i class="fa fa-instagram fa-2x"></i></a>
-          <a href="https://twitter.com/zeisphoto"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="https://www.facebook.com/zeisphoto" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+          <a href="https://www.instagram.com/zeisphoto" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+          <a href="https://twitter.com/zeisphoto" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
           <p>&copy; 2015 ZeisPhotography - By George Zeis</p>
         </div>
       </div>

@@ -4,8 +4,9 @@ require("config.php");
 session_start();
 $action = isset($_GET['action']) ? $_GET['action'] : "";
 $username = isset($_SESSION['username']) ? $_SESSION['username'] : "";
-
-
+?>
+<div class="container">
+<?php
 if ($action != "login" && $action != "logout" && !$username){
 	login();
 	exit;
@@ -148,44 +149,5 @@ function listArticles(){
 	
 	require("templates/admin/listArticles.php");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
+</div>

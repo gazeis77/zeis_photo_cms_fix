@@ -1,7 +1,7 @@
 <?php include "inc/header.php" ?>
- 
+    <div class="container">
       <div id="adminHeader">
-        <h2>Widget News Admin</h2>
+        <h2>Zeis Photography Admin</h2>
         <p>You are logged in as <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a href="admin.php?action=logout"?>Log out</a></p>
       </div>
  
@@ -25,9 +25,9 @@
 <?php foreach ( $results['articles'] as $article ) { ?>
  
         <tr onclick="location='admin.php?action=editArticle&amp;articleId=<?php echo $article->id?>'">
-          <td><?php echo date('j M Y', $article->publicationDate)?></td>
+          <td><a href="#"><?php echo date('j M Y', $article->publicationDate)?></a></td>
           <td>
-            <?php echo $article->title?>
+            <a href="#"><?php echo $article->title?></a>
           </td>
         </tr>
  
@@ -38,5 +38,5 @@
       <p><?php echo $results['totalRows']?> article<?php echo ( $results['totalRows'] != 1 ) ? 's' : '' ?> in total.</p>
  
       <p><a href="admin.php?action=newArticle">Add a New Article</a></p>
- 
+  </div>
 <?php include "inc/footer.php" ?>
