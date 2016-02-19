@@ -12,7 +12,6 @@ if ($action != "login" && $action != "logout" && !$username){
 	exit;
 } 
 
-
 switch ($action) {
 	case 'login':
 		login();
