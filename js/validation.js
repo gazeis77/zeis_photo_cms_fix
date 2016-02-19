@@ -1,4 +1,12 @@
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> 01b399b16963675aaa867334532c72aeaeb0537e
 var error_list = [];
 
     function validate_form() {
@@ -21,8 +29,13 @@ var error_list = [];
             error_list.push("Firstname is required");
         } else if(!max_length(firstname,25)) {
             error_list.push("Firstname cannot be longer than 25 characters");
+<<<<<<< HEAD
         } else if(!min_length(firstname,5)) {
             error_list.push("Firstname cannot be shorter than than 5 characters");
+=======
+        } else if(!min_length(firstname,2)) {
+            error_list.push("Firstname cannot be shorter than than 2 characters");
+>>>>>>> 01b399b16963675aaa867334532c72aeaeb0537e
         }
 
         // Lastname
@@ -143,3 +156,25 @@ var error_list = [];
     }
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+>>>>>>> 01b399b16963675aaa867334532c72aeaeb0537e

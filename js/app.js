@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 01b399b16963675aaa867334532c72aeaeb0537e
  $(document).ready(function () {
   $('.fotorama').fotorama({
     data: [
